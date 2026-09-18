@@ -7,7 +7,7 @@ export default function Hero() {
     <section className="relative mx-auto mt-16 max-w-5xl px-4 text-center">
       <h1 className="select-none font-display text-[15vw] font-semibold leading-[0.85] tracking-tight sm:text-[9rem] md:text-[10rem]">
         <text
-          className="animate-fade-in-scale text-transparent"
+          className="animate-slideInDown text-transparent"
           style={{ WebkitTextStroke: '2px #141414' }}
         >
           Benjamin
@@ -18,7 +18,7 @@ export default function Hero() {
       <div className="relative mx-auto -mt-6 flex max-w-3xl items-end justify-between gap-6 text-left sm:-mt-10">
         <div className="max-w-[220px] pb-6">
           <p className="font-display text-lg font-medium">def SOFTWARE_DEVELOPER():</p>
-          <p className="animate-slideInDown mt-2 text-sm text-muted">
+          <p className=" mt-2 text-sm text-muted">
           building software that benefits society \n :)
           </p>
           <a
