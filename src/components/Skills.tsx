@@ -2,7 +2,6 @@ import { useState } from "react";
 import { services } from "../data";
 
 export default function Service() {
-  const [openIndex, setOpenIndex] = useState(0);
 
   return (
     <section id="service" className="mx-auto mt-32 max-w-5xl px-4">
@@ -15,7 +14,7 @@ export default function Service() {
       <h2 className="font-display text-2xl font-semibold">/SKILLS</h2>
 
       <div className="mt-8 flex flex-row gap-4">
-        {services.map((service, i) => {
+        {services.map((service) => {
           return (
             <div key={service.title}>
               {/* <div className="w-24 h-24 rounded-full shadow-lg text-lg "> */}
