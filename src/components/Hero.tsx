@@ -1,6 +1,5 @@
 import AvatarPlaceholder from './AvatarPlaceholder'
 import { socials } from '../data'
-// import './app.css'
 
 export default function Hero() {
   return (
