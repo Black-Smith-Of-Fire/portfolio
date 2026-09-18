@@ -4,7 +4,6 @@ import SelectedWork from './components/SelectedWork'
 import Service from './components/Service'
 import Experience from './components/Experience'
 import Contact from './components/Contact'
-// import './app.css'
 
 export default function App() {
   return (
