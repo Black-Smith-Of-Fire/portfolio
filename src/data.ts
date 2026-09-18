@@ -1,6 +1,13 @@
+import react from "./assets/react.jpeg";
+import springboot from "./assets/springboot.png";
+import git from "./assets/git.png";
+import docker from "./assets/docker2.png";
+import django from "./assets/django5.jpeg";
+import github_actions from "./assets/github_actions.png";
+
 export const nav = [
-  { label: 'Work', count: 40, href: '#work' },
-  { label: 'Service', count: 4, href: '#service' },
+  { label: 'Projects', count: 40, href: '#work' },
+  { label: 'Skills', count: 4, href: '#service' },
   { label: 'Experience', count: '9+', href: '#experience' },
   { label: 'Contact', href: '#contact' },
 ]
@@ -25,58 +32,65 @@ export interface WorkItem {
 }
 
 export const workItems: WorkItem[] = [
-  {
-    id: 'bloomcare',
-    title: 'BloomCare — Mental Health App Landing Page',
-    tags: ['Landing Page', 'Kumpin Studio'],
-    category: 'Real Project',
-    from: '#FF3D9A',
-    to: '#170018',
-  },
-  {
-    id: 'fragwater',
-    title: 'FragWater — Luxury Fragrance Landing Page',
-    tags: ['Landing Page', 'Kumpin Studio'],
-    category: 'Real Project',
-    from: '#2B2B2B',
-    to: '#0A0A0A',
-    badge: 'Real Project',
-  },
+
   {
     id: 'cryptocalm',
-    title: 'CryptoCalm — Portfolio Dashboard',
-    tags: ['Dashboard', 'Exploration'],
+    title: 'Cognizant | Employee Lifecycle Management system',
+    tags: ['React','Spring Boot', 'Spring Security','Docker','Tailwindcss'],
     category: 'Exploration',
     from: '#1B1E2A',
     to: '#05060A',
   },
   {
     id: 'tapfast',
-    title: 'TapFast — Payments App UI',
-    tags: ['Mobile App', 'Exploration'],
+    title: 'Tenet Networks | Automated Router Testing Framework',
+    tags: ['Python', 'Selenium','Bash'],
     category: 'Exploration',
     from: '#12261F',
     to: '#05100C',
+  },
+  {
+    id: 'bloomcare',
+    title: 'SniperMouse- Navigate gui applications using Vim based keybindings',
+    tags: ['Java', 'Robot Library','Vim'],
+    category: 'Real Project',
+    from: '#FF3D9A',
+    to: '#170018',
+  },
+  {
+    id: 'fragwater',
+    title: 'Edux- A machine learning library',
+    tags: ['ML', 'Java'],
+    category: 'Real Project',
+    from: '#2B2B2B',
+    to: '#0A0A0A',
   },
 ]
 
 export const services = [
   {
-    title: 'UIUX Design',
-    description:
-      'Designing clear and scalable interfaces for dashboards, mobile apps, and websites.',
+    title: 'React',
+    source:`${react}`,
   },
   {
-    title: 'Web Design & Dev',
-    description: 'Building fast, responsive websites from design to deployment.',
+    title: 'Spring Boot',
+    source:`${springboot}`,
   },
   {
-    title: 'Branding',
-    description: 'Crafting visual identities that feel consistent across every touchpoint.',
+    title: 'Git',
+    source:`${git}`,
   },
   {
-    title: 'Motions & Animations',
-    description: 'Adding purposeful motion that guides attention and adds polish.',
+    title: 'Docker',
+    source:`${docker}`,
+  },
+  {
+    title: 'Django',
+    source:`${django}`,
+  },
+  {
+    title: 'Github Actions',
+    source:`${github_actions}`,
   },
 ]
 
@@ -88,9 +102,7 @@ export interface ExperienceItem {
 }
 
 export const experience: ExperienceItem[] = [
-  { company: 'Kumpin Studio', role: 'UI/UX & Product Designer', from: 'Nov 2025', to: 'Now' },
-  { company: 'Mikan Team', role: 'Creative Director', from: 'Aug 2025', to: 'Now' },
-  { company: 'Microsoft', role: 'Interaction Designer', from: 'Jan 2022', to: 'Aug 2025' },
-  { company: 'Facebook', role: 'Visual Designer', from: 'Mar 2019', to: 'Dec 2021' },
-  { company: 'Apple', role: 'Experience Designer', from: 'Feb 2017', to: 'Feb 2019' },
+  { company: 'Cognizant', role: 'Software Developer', from: 'April 2026', to: 'Present' },
+  { company: 'Tenet Networks', role: 'Python intern', from: 'June 2024', to: 'August 2024' },
+  { company: 'Edux(open source collaboration)', role: 'Contributor', from: 'Mar 2024', to: 'Present' },
 ]
