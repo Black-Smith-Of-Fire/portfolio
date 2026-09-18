@@ -15,14 +15,14 @@ export default {
           "100%": { opacity: "1", transform: "translateY(0)" },
         },
         slideInDown:{
-        "0%":{transform: "translateY(-100%)",opacity:"0"},
+        "0%":{transform: "translateY(-200%)",opacity:"0"},
         "100%":{transform: "translateY(0)",opacity: "1"},
         },
       },
       animation: {
         'wiggle': "wiggle 1s ease-in-out infinite",
         'fade-in-up': "fade-in-up 0.5s ease-out downwards",
-        'slideInDown':"slideInDown 1s ease-out infinite",
+        'slideInDown':"slideInDown 3s ease-out",
       },
       fontFamily: {
         display: ['"Space Grotesk"', "sans-serif"],
