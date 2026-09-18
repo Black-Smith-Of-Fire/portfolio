@@ -1,5 +1,5 @@
 import passportPic from './../assets/benjamin.png'
-export default function AvatarPlaceholder({ className = '' }: { className?: string }) {
+export default function AvatarPlaceholder({}: { className?: string }) {
   return (
     <>
     <div>
