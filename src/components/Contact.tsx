@@ -12,14 +12,13 @@ export default function Contact() {
       </div>
 
       <h2 className="mt-6 font-display text-3xl font-semibold sm:text-4xl">
-        HAVE A PROJECT IN MIND?
+      Volunteering
       </h2>
       <p className="mx-auto mt-4 max-w-md text-sm text-muted">
-        Together, we can create something clear and impactful. Let's collaborate to bring
-        our ideas to life in a way that resonates with everyone.
+      Volunteered to teach English to school-age children, helping them develop foundational reading, writing, vocabulary, and communication skills in Mount Carmel School Informal Learning Center. It was a honor to serve the community 
       </p>
 
-      <a
+      {/* <a
         href="mailto:hello@example.com"
         className="group mt-6 inline-flex items-center gap-1.5 rounded-pill bg-ink px-6 py-3 text-sm font-medium text-paper transition-transform hover:-translate-y-0.5"
       >
@@ -27,7 +26,7 @@ export default function Contact() {
         <span className="transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5">
           ↗
         </span>
-      </a>
+      </a> */}
 
       <div className="mt-10 flex flex-wrap items-center justify-center gap-3">
         <span className="inline-flex items-center gap-2 rounded-pill bg-ink px-3 py-1.5 text-sm text-paper">

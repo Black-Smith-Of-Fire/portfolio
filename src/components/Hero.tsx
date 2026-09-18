@@ -11,7 +11,7 @@ export default function Hero() {
         >
           Benjamin
         </text>{' '}
-        <span>Luke</span>
+        <span className="animate-slideInDown">Luke</span>
       </h1>
 
       <div className="relative mx-auto -mt-6 flex max-w-3xl items-end justify-between gap-6 text-left sm:-mt-10">
