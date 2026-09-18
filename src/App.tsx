@@ -1,9 +1,10 @@
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
-import SelectedWork from './components/SelectedWork'
-import Service from './components/Service'
+import SelectedWork from './components/MyProjects'
+import Service from './components/Skills'
 import Experience from './components/Experience'
 import Contact from './components/Contact'
+// import './app.css'
 
 export default function App() {
   return (
@@ -17,6 +18,5 @@ export default function App() {
         <Contact />
       </main>
     </div>
-    
   )
 }
