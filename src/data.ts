@@ -1,9 +1,13 @@
-import react from "./assets/react.jpeg";
-import springboot from "./assets/springboot.png";
-import git from "./assets/git.png";
-import docker from "./assets/docker2.png";
-import django from "./assets/django5.jpeg";
-import github_actions from "./assets/github_actions.png";
+import react from "./assets/React.png";
+import springboot from "./assets/Spring.png";
+import git from "./assets/Git.png";
+import docker from "./assets/Docker.png";
+import django from "./assets/Django.png";
+import github_actions from "./assets/GitHub Actions.png";
+import java from "./assets/Java.png";
+import python from "./assets/Python.png";
+import aws from "./assets/AWS.png";
+import linux from "./assets/Linux.png";
 
 export const nav = [
   { label: 'Projects', count: 40, href: '#work' },
@@ -69,6 +73,14 @@ export const workItems: WorkItem[] = [
 
 export const services = [
   {
+    title: 'Java',
+    source:`${java}`,
+  },
+  {
+    title: 'Python',
+    source:`${python}`,
+  },
+  {
     title: 'React',
     source:`${react}`,
   },
@@ -91,6 +103,14 @@ export const services = [
   {
     title: 'Github Actions',
     source:`${github_actions}`,
+  },
+  {
+    title: 'Linux',
+    source:`${linux}`,
+  },
+  {
+    title: 'AWS',
+    source:`${aws}`,
   },
 ]
 
