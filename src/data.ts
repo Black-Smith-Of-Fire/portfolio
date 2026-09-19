@@ -13,7 +13,7 @@ export const nav = [
   { label: 'Projects', count: 40, href: '#work' },
   { label: 'Skills', count: 4, href: '#service' },
   { label: 'Experience', count: '9+', href: '#experience' },
-  { label: 'Contact', href: '#contact' },
+  { label: 'Volunteering', href: '#contact' },
 ]
 
 export const socials = [
