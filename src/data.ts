@@ -10,9 +10,9 @@ import aws from "./assets/AWS.png";
 import linux from "./assets/Linux.png";
 
 export const nav = [
-  { label: 'Projects', count: 40, href: '#work' },
-  { label: 'Skills', count: 4, href: '#service' },
-  { label: 'Experience', count: '9+', href: '#experience' },
+  { label: 'Projects', count: 4, href: '#work' },
+  { label: 'Skills', count: 10, href: '#service' },
+  { label: 'Experience', href: '#experience' },
   { label: 'Volunteering', href: '#contact' },
 ]
 
