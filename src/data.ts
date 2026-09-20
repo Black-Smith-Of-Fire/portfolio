@@ -8,6 +8,7 @@ import java from "./assets/Java.png";
 import python from "./assets/Python.png";
 import aws from "./assets/AWS.png";
 import linux from "./assets/Linux.png";
+import linkedin from "./assets/linkedin2.png";
 
 export const nav = [
   { label: 'Projects', count: 4, href: '#work' },
@@ -17,10 +18,8 @@ export const nav = [
 ]
 
 export const socials = [
-  { label: 'Dribbble', href: '#' },
-  { label: 'Instagram', href: '#' },
-  { label: 'LinkedIn', href: '#' },
-  { label: 'Behance', href: '#' },
+  { label: 'LinkedIn',icon:`${linkedin}`, href: 'https://linkedin.com/in/benjaminluke03' },
+  { label: 'Github', href: 'https://github.com/Black-Smith-Of-Fire' },
 ]
 
 export type WorkCategory = 'Real Project' | 'Exploration'
