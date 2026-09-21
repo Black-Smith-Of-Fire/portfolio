@@ -8,7 +8,7 @@ import java from "./assets/Java.png";
 import python from "./assets/Python.png";
 import aws from "./assets/AWS.png";
 import linux from "./assets/Linux.png";
-import linkedin from "./assets/linkedin2.png";
+// import linkedin from "./assets/linkedin2.png";
 
 export const nav = [
   { label: 'Projects', count: 4, href: '#work' },
@@ -18,7 +18,7 @@ export const nav = [
 ]
 
 export const socials = [
-  { label: 'LinkedIn',icon:`${linkedin}`, href: 'https://linkedin.com/in/benjaminluke03' },
+  
   { label: 'Github', href: 'https://github.com/Black-Smith-Of-Fire' },
 ]
 
@@ -27,6 +27,7 @@ export type WorkCategory = 'Real Project' | 'Exploration'
 export interface WorkItem {
   id: string
   title: string
+  para:string
   tags: string[]
   category: WorkCategory
   from: string
@@ -39,6 +40,10 @@ export const workItems: WorkItem[] = [
   {
     id: 'cryptocalm',
     title: 'Cognizant | Employee Lifecycle Management system',
+    para:`
+An end-to-end employee lifecycle automation platform using Spring Boot, which automates onboarding, candidate
+evaluation, employee status transitions, and role allocation.
+    `,
     tags: ['React','Spring Boot', 'Spring Security','Docker','Tailwindcss'],
     category: 'Exploration',
     from: '#1B1E2A',
@@ -47,6 +52,10 @@ export const workItems: WorkItem[] = [
   {
     id: 'tapfast',
     title: 'Tenet Networks | Automated Router Testing Framework',
+    para:`
+An automated router testing framework which automates repetitive test workflows
+and reduces manual intervention.
+    `,
     tags: ['Python', 'Selenium','Bash'],
     category: 'Exploration',
     from: '#12261F',
@@ -55,6 +64,10 @@ export const workItems: WorkItem[] = [
   {
     id: 'bloomcare',
     title: 'SniperMouse- Navigate gui applications using Vim based keybindings',
+    para:`
+A Vim-inspired keyboard-driven mouse navigation tool which enables mouseless cursor control and GUI
+interaction through customizable key bindings
+    `,
     tags: ['Java', 'Robot Library','Vim'],
     category: 'Real Project',
     from: '#FF3D9A',
@@ -63,6 +76,10 @@ export const workItems: WorkItem[] = [
   {
     id: 'fragwater',
     title: 'Edux- A machine learning library',
+    para:`
+Implemented the MiniMax game-search algorithm to an open source Java-based machine learning library,which enables developers to build AI agents capable of making optimal
+decisions in two-player, turn-based games.
+    `,
     tags: ['ML', 'Java'],
     category: 'Real Project',
     from: '#2B2B2B',
