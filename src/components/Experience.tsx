@@ -14,7 +14,7 @@ export default function Experience() {
       
         <div className="relative flex items-center justify-between">
           <h2 className="font-display text-2xl font-semibold">/EXPERIENCE</h2>
-          <p className="text-sm text-paper/60">9+ years of experience</p>
+          
         </div>
 
         <div className="relative mt-8 divide-y divide-paper/10">
