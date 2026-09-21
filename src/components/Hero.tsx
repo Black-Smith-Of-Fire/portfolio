@@ -18,7 +18,7 @@ export default function Hero() {
         <div className="max-w-[220px] pb-6">
           <p className="font-display text-lg font-medium">def SOFTWARE_DEVELOPER():</p>
           <p className=" mt-2 text-sm text-muted">
-          building software that benefits society \n :)
+          Just a software dev who likes code, coffee and music \n :)
           </p>
           
         </div>
