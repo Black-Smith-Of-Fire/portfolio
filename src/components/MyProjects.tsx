@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { workItems, WorkCategory } from '../data'
 
-const filters: Array<'All' | WorkCategory> = ['All', 'Real Project', 'Exploration']
+// const filters: Array<'All' | WorkCategory> = ['All', 'Real Project', 'Exploration']
 
 export default function SelectedWork() {
   const [active, setActive] = useState<'All' | WorkCategory>('All')
