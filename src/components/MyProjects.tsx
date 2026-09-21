@@ -46,7 +46,7 @@ export default function SelectedWork() {
             {/* <div className='max-w-82 items-center'> */}
             <h3 className="mt-4 text-base font-medium leading-snug">{item.title}</h3>
               <div className='text-gray-500 text-sm mt-3 '>{item.para}</div>
-            <div className="lg:mt-2 lg:gap-2 lg:flex lg:text-center grid grid-cols-3 gap-3 text-center items-center">
+            <div className="lg:mt-2 lg:gap-2 lg:flex lg:text-center mt-3 grid grid-cols-3 gap-3 text-center items-center">
               {item.tags.map((t) => (
                 <span
                   key={t}
