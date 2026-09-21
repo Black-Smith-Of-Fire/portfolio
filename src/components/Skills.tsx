@@ -1,3 +1,4 @@
+
 import { services } from "../data";
 
 export default function Service() {
@@ -12,17 +13,17 @@ export default function Service() {
       </p>
       <h2 className="font-display text-2xl font-semibold">/SKILLS</h2>
 
-      <div className="mt-8 flex flex-row gap-4">
+      <div className="lg:m-4 lg:flex lg:flex-row lg:gap-10 grid grid-cols-3 gap-8 mt-9">
         {services.map((service) => {
           return (
             <div key={service.title}>
-              {/* <div className="w-24 h-24 rounded-full shadow-lg text-lg "> */}
+            
                 <img
                   src={service.source}
                   className="h-21 w-21 mx-1 my-1 rounded-full"
                   alt="..."
                 />
-              {/* </div> */}
+                
             </div>
           );
         })}
