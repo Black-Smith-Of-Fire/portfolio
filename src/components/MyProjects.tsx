@@ -23,35 +23,12 @@ export default function SelectedWork() {
         </h2>
       </div>
 
-      <div className="mt-10 flex flex-wrap items-center justify-between gap-4">
-        <div className="flex gap-6 text-sm">
-          {filters.map((f) => (
-            <button
-              key={f}
-              onClick={() => setActive(f)}
-              className={`transition-colors ${
-                active === f ? 'text-ink font-medium' : 'text-muted hover:text-ink'
-              }`}
-            >
-              {f}
-            </button>
-          ))}
-        </div>
-        <a
-          href="#"
-          className="group inline-flex items-center gap-1.5 rounded-pill border border-line bg-white px-4 py-2 text-sm transition-colors hover:border-ink"
-        >
-          View All Work
-          <span className="transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5">
-            ↗
-          </span>
-        </a>
-      </div>
+
 
       <div className="mt-6 grid grid-cols-1 gap-6 sm:grid-cols-2">
         {visible.map((item) => (
-          <a key={item.id} href="#" className="group block">
-            <div
+          <div key={item.id} className="group block">
+            {/* <div
               className="relative aspect-[4/3] overflow-hidden rounded-card"
               style={{
                 backgroundImage: `linear-gradient(160deg, ${item.from}, ${item.to})`,
@@ -65,9 +42,11 @@ export default function SelectedWork() {
               <span className="absolute right-4 top-4 flex h-9 w-9 items-center justify-center rounded-full bg-white text-ink transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5">
                 ↗
               </span>
-            </div>
+            </div> */}
+            {/* <div className='max-w-82 items-center'> */}
             <h3 className="mt-4 text-base font-medium leading-snug">{item.title}</h3>
-            <div className="mt-2 flex gap-2">
+              <div className='text-gray-500 text-sm mt-3 '>{item.para}</div>
+            <div className="lg:mt-2 lg:gap-2 lg:flex lg:text-center grid grid-cols-3 gap-3 text-center items-center">
               {item.tags.map((t) => (
                 <span
                   key={t}
@@ -77,7 +56,8 @@ export default function SelectedWork() {
                 </span>
               ))}
             </div>
-          </a>
+            {/* </div> */}
+           </div>
         ))}
       </div>
     </section>
