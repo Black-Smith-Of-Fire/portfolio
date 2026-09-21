@@ -4,7 +4,7 @@ import { workItems, WorkCategory } from '../data'
 // const filters: Array<'All' | WorkCategory> = ['All', 'Real Project', 'Exploration']
 
 export default function SelectedWork() {
-  const [active, setActive] = useState<'All' | WorkCategory>('All')
+  const [active] = useState<'All' | WorkCategory>('All')
 
   const visible =
     active === 'All' ? workItems : workItems.filter((w) => w.category === active)
